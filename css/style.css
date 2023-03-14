@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/********************************************* Banner **********************************************/
+header {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-color: grey;
+    /* position: relative; */
+}
+
+.banner {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 43% 53%;
+    gap: 4%;
+    /* position: relative; */
+}
+
+.banner-img, .banner-intro {
+    margin-top: 12rem;
+}
+
+.banner-img-lg {
+    width: 30rem;
+    border: 10px solid rgb(100, 50, 2);
+    /* position: relative;
+    top: 1rem;
+    left: 1rem;
+    transition: all 450ms ease; */
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-intro {
+    padding-top: 5rem;
+}
+
+.banner-intro h1 {
+    font-size: 5rem;
+    color: #ff7200;
+    margin-bottom: 1rem;    
+}
+
+.banner-intro h3 {
+    font-size: 2rem;
+}
+
+.banner-intro p {
+    margin-top: 2rem;
+    width: 80%;
+}
