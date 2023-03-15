@@ -24,21 +24,21 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 43% 53%;
+    grid-template-rows: 70% 20%;
     gap: 4%;
+    /* row-gap: 10rem; */
     /* position: relative; */
 }
 
 .banner-img, .banner-intro {
-    margin-top: 12rem;
+    margin-top: 10rem;
+    align-self: center;
+    justify-self: center;
 }
 
 .banner-img-lg {
-    width: 30rem;
+    width: 25rem;
     border: 10px solid rgb(100, 50, 2);
-    /* position: relative;
-    top: 1rem;
-    left: 1rem;
-    transition: all 450ms ease; */
 }
 
 img {
@@ -46,9 +46,9 @@ img {
     object-fit: cover;
 }
 
-.banner-intro {
-    padding-top: 5rem;
-}
+/* .banner-intro {
+    align-self: center;
+} */
 
 .banner-intro h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -67,12 +67,13 @@ img {
 }
 
 .btn {
-    position: absolute;
-    bottom: 5rem;
-    left: 50%;
+    background-color: #ff7200;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+    justify-self: center;
     padding: 1rem 1.5rem;
     border-radius: 1rem;
-    background-color: #ff7200;
 }
 
 .btn a {
