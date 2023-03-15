@@ -110,6 +110,7 @@ button {
     font-weight: bold;
 }
 
+/* tablet Hero/Banner media query */
 @media screen and (max-width: 946px) {
 
     body{
@@ -166,6 +167,57 @@ button {
     .btn {
         padding: 0.8rem 1rem;
         border-radius: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        display: grid;
+    }
+    .banner {
+        padding: 0;
+        /* padding-bottom: 6rem; */
+        margin: 0 auto;
+        /* width: 100%; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 0.5fr;
+        place-items: center;
+        align-self: center;
+        gap: 2rem;
+    }
+
+    .banner-img, .banner-intro {
+        margin-top: 0;
+    }
+
+    .banner-img-lg {
+        width: 13rem;
+        height: 15rem;
+    }
+
+    .banner-intro {
+        text-align: center;
+    }
+
+    .banner-intro h1{
+        font-size: 2.5rem;
+    }
+
+    .banner-intro h3 {
+        font-size: 1.2rem;
+    }
+
+    /* 
+        .banner-intro p {
+        width: 90%;
+    }
+    */
+    .banner-intro p {
+        width: 100%;
+    }
+
+    .btn {
+        grid-column-end: 2;
     }
 }
 
