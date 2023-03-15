@@ -39,13 +39,13 @@
                 </p>
             </div>
 
-                <a class="btn" href="#">
+                <a class="btn" href="#main">
                     <button>View Resume</button>
                 </a>
         </div>
     </header>
 
-    <main>
+    <main id="main">
         <!-- experience -->
         <section class="experience">
             <!-- header -->
@@ -204,6 +204,39 @@
             </div>
         </section>
         <!-- end interests -->
+
+        <!-- contact -->
+        <section class="contact">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="section-body">
+                <form action="" method="post">
+                    <div>
+                        <label for="subject">Subject: </label>
+                        <input type="text" id="subject" required>
+                    </div>
+
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <input type="submit" value="Send Messange">
+                </form>
+            </div>
+        </section>
+        <!-- end contact -->
     </main>
 
     <footer class="footer">

@@ -1,6 +1,11 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
 
 /********************************************* Banner **********************************************/
@@ -81,12 +86,67 @@ button {
     font-size: 1.2rem;
     font-weight: bold;
 }
-/* main */
+
+/********************************************* Main **********************************************/
+main {
+    width: 80%;
+    
+}
 main, footer {
     margin: 0 auto;
 }
 
-/* footer */
+.experience, 
+.education,
+.skills,
+.interests,
+.contact {
+    padding-top: 5rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.section-header {
+    flex: 1;
+}
+
+.section-body {
+    flex: 6;
+}
+
+.work1 {
+    background-color: #ff7200;
+    display: flex;
+    gap: 2rem;
+}
+
+.work-info {
+    flex: 2;
+}
+.work-description {
+    flex: 6;
+}
+
+.skills ul,
+.interests ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.contact .section-body div {
+    /* background-color: #ff7200; */
+    margin-bottom: 1rem;
+}
+
+label {
+    display: inline-block;
+    width: 10rem;
+}
+
+/********************************************* Footer **********************************************/
 .footer {
     background-color: rgb(153, 149, 149);
     padding-top: 5rem;
