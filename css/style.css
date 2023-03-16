@@ -234,7 +234,6 @@ main, footer {
 .experience, 
 .education,
 .skills,
-.interests,
 .contact {
     padding-top: 5rem;
     display: flex;
@@ -287,14 +286,6 @@ main, footer {
     align-self: center;
 }
 
-.interests ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill ,3, 1fr);
-    gap: 2rem;
-}
-
 .contact .section-body div {
     margin-bottom: 1rem;
 }
@@ -339,7 +330,6 @@ label {
     .experience, 
     .education,
     .skills,
-    .interests,
     .contact {
         padding-top: 2rem;
         display: block;
