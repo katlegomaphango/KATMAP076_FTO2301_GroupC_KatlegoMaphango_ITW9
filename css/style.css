@@ -254,10 +254,6 @@ main, footer {
     gap: 2rem;
 }
 
-.work4{
-    order: 1;
-}
-
 .work-info {
     flex: 2;
 }
@@ -282,6 +278,41 @@ main, footer {
 label {
     display: inline-block;
     width: 10rem;
+}
+
+/* tablet main media query */
+@media screen and (max-width: 946px) {
+    main {
+        width: 90%;
+    }
+}
+
+/* mobile main media query */
+@media screen and (max-width: 425px) {
+    main {
+        width: 90%;
+    }
+
+    /* 
+    .experience, 
+.education,
+.skills,
+.interests,
+.contact {
+    padding-top: 5rem;
+    display: flex;
+    gap: 4rem;
+}
+    */
+    .experience, 
+    .education,
+    .skills,
+    .interests,
+    .contact {
+        padding-top: 2rem;
+        display: block;
+        /* gap: 0; */
+    }
 }
 
 /********************************************* Footer **********************************************/
