@@ -371,3 +371,25 @@ label {
         gap: 1rem;
     }
 }
+
+/* mobile main media query */
+@media screen and (max-width: 425px) {
+    .footer {
+        margin-top: 2rem;
+        padding: 0;
+    }
+
+    .footer-section {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        justify-items: left;
+    }
+
+    .socials-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-copy {
+        margin-top: 2rem;
+    }
+}
