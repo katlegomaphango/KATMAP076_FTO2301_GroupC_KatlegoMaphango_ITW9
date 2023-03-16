@@ -263,7 +263,7 @@ main, footer {
 
 .skills-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
     gap: 1.2rem;
 }
 
@@ -291,7 +291,7 @@ main, footer {
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill ,3, 1fr);
     gap: 2rem;
 }
 
@@ -309,6 +309,25 @@ label {
     main {
         width: 90%;
     }
+    .skills {
+        
+    }
+    .skills-list{
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        gap: 0.5rem;
+    }
+    .skill {
+        border-radius: 1rem;
+        padding: 0 1rem;
+        width: 8rem;
+
+    }
+    .skill p {
+        font-weight: 500;
+    }
+    .skill img {
+        width: 2rem;
+    }
 }
 
 /* mobile main media query */
@@ -317,17 +336,6 @@ label {
         width: 90%;
     }
 
-    /* 
-    .experience, 
-.education,
-.skills,
-.interests,
-.contact {
-    padding-top: 5rem;
-    display: flex;
-    gap: 4rem;
-}
-    */
     .experience, 
     .education,
     .skills,
