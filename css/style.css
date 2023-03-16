@@ -318,15 +318,30 @@ label {
 /********************************************* Footer **********************************************/
 .footer {
     background-color: rgb(153, 149, 149);
-    padding-top: 5rem;
+    margin-top: 4rem;
+    padding-top: 4rem;
     font-size: 0.9rem;
 }
 
 .footer-section {
+    width: 80%;
+    /* background-color: #ff7200; */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 5rem;
     margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.contact-links, .socials-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.contact-links a, .socials-links a {
+    color: black;
 }
 
 .footer-copy {
@@ -335,3 +350,11 @@ label {
     padding: 1.2rem 0;
     border-top: 1px solid rgb(92, 87, 87);
 }
+
+/* tablet main media query */
+/* @media screen and (max-width: 946px) {
+    .footer {
+        padding-top: 2rem;
+        font-size: 1rem;
+    }
+} */
