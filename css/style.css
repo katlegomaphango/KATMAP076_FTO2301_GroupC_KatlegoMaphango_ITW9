@@ -1,6 +1,6 @@
 *{
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -170,6 +170,7 @@ button {
     }
 }
 
+/* mobile Hero/Banner media query */
 @media screen and (max-width: 425px) {
     header {
         display: grid;
@@ -248,10 +249,13 @@ main, footer {
     flex: 6;
 }
 
-.work1 {
-    background-color: #ff7200;
+.work {
     display: flex;
     gap: 2rem;
+}
+
+.work4{
+    order: 1;
 }
 
 .work-info {
