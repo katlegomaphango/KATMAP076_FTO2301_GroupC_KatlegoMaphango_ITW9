@@ -261,7 +261,32 @@ main, footer {
     flex: 6;
 }
 
-.skills ul,
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+.skill {
+    background-color: rgb(153, 149, 149);
+    border-radius: 1.5rem;
+    justify-self: center;
+    text-align: center;
+    padding: 0 2rem;
+    width: 15rem;
+}
+
+.skill p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.skill img {
+    width: 5rem;
+    align-self: center;
+}
+
 .interests ul {
     list-style: none;
     padding: 0;
@@ -271,7 +296,6 @@ main, footer {
 }
 
 .contact .section-body div {
-    /* background-color: #ff7200; */
     margin-bottom: 1rem;
 }
 
