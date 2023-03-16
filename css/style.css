@@ -352,9 +352,22 @@ label {
 }
 
 /* tablet main media query */
-/* @media screen and (max-width: 946px) {
+@media screen and (max-width: 946px) {
     .footer {
         padding-top: 2rem;
         font-size: 1rem;
     }
-} */
+
+    .footer-section {
+        width: 90%;
+        gap: 2rem;
+        align-items: normal;
+        font-size: 1.2rem;
+    }
+
+    .contact-links, .socials-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
