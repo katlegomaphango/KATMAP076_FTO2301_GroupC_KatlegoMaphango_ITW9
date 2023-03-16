@@ -9,4 +9,4 @@ HTML and CSS
 This a digital format of Katlego Maphango's resume
 
 Link to wireframe:
-https://www.figma.com/file/rBuHoftHz0Vpxp1Dbpm8Te/KATMAP076_FTO2301_GroupC_KatlegoMaphango_ITW9?node-id=936-4&t=XznnQwNBoSUIwof0-0
+https://www.figma.com/file/rBuHoftHz0Vpxp1Dbpm8Te/KATMAP076_FTO2301_GroupC_KatlegoMaphango_ITW9?node-id=936%3A4&t=XznnQwNBoSUIwof0-1
